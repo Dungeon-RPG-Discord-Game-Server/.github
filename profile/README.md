@@ -7,7 +7,7 @@ built for Discord using **.NET 8**, **Azure**, and modern backend practices.
 
 ## How to Play (Try the Game!)
 
-1. **[Invite the RPG Bot to your Discord Server](https://discord.gg/YOUR_INVITE_LINK)**  
+1. **[Invite the RPG Bot to your Discord Server](https://discord.com/oauth2/authorize?client_id=1345637408691064843)**  
 2. Type `/start` in the server  
 3. The bot will send a DM to begin your adventure!
 
