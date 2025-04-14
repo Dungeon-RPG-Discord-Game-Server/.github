@@ -30,16 +30,6 @@ with **in-memory caching**, **Key Vault integration**, and **full observability*
 
 ![System Diagram](/profile/system_diagram.png)
 
-```mermaid
-graph TD
-  User -->|Discord| DiscordBot
-  DiscordBot[DiscordMessageReceiver]
-  DiscordBot -->|HTTP + API Key| GameServer[GameStateService]
-  GameServer -->|Read/Write| CosmosDB
-  GameServer -->|Secure Access| KeyVault[Azure Key Vault]
-  DiscordBot -->|Fetch Admin Key| KeyVault
-```
-
 ---
 
 ## Tech Stack
@@ -61,11 +51,17 @@ graph TD
 ## Authentication System
 
 ### Admin Flow (Key Issuance)
+
+![System Diagram](/profile/api_key_discord.png)
+
 - Discord service pulls a **permanent admin key** from Azure Key Vault
 - This is used only to request short-lived **game API keys**
 - These are stored in **in-memory cache** and refreshed on expiration
 
 ### Game API Flow
+
+![System Diagram](/profile/api_key_game.drawio.png)
+
 - Incoming HTTP requests to game service are authenticated via API Key header
 - Middleware checks:
   - Is key in local memory cache?
