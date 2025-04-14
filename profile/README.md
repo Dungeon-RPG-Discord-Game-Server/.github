@@ -139,5 +139,5 @@ Both services are deployed independently as containerized applications:
 
 ## Author
 
-Developed solo by [@vbn930](https://github.com/vbn930) in 2 weeks  
+Developed solo by Dohun Lee [@vbn930](https://github.com/vbn930) in 2 weeks  
 as a **cloud systems design project**, combining full-stack backend, API design, and game logic engineering.
