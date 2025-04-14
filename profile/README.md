@@ -28,7 +28,7 @@ with **in-memory caching**, **Key Vault integration**, and **full observability*
 
 ##  Architecture Overview
 
-![System Diagram](/system_diagram.png)
+![System Diagram](/profile/system_diagram.png)
 
 ```mermaid
 graph TD
