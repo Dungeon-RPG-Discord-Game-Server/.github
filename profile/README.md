@@ -5,14 +5,23 @@ built for Discord using **.NET 8**, **Azure**, and modern backend practices.
 
 ---
 
-## How to Play (Try the Game!)
+## How to Play
 
-1. **[Invite the RPG Bot to your Discord Server](https://discord.com/oauth2/authorize?client_id=1345637408691064843)**  
-2. Type `/start` in the server  
-3. The bot will send a DM to begin your adventure!
+1. **Invite the Bot**  
+   Use the invitation link to add the bot to your Discord server or personal account. -> **[Invite the RPG Bot](https://discord.com/oauth2/authorize?client_id=1345637408691064843)**  
 
-> The entire game is played via **Discord DMs**.
-> No installation, no accounts — just play.
+2. **Start the Game**  
+   Type the `/start` slash command to receive a **DM** from the bot and begin your adventure.  
+   🔹 *You can use slash commands in any server where the bot exists or directly in App Messages.*
+
+3. **Play in Direct Messages**  
+   All gameplay takes place in DMs. Use commands like `!help` to view available actions.
+
+4. **Access Main Menu**  
+   Use `!menu` anytime during gameplay to return to the **main game menu**.
+
+5. **Save Your Progress**  
+   Use the `!save` command to **store your current game state** on the server.
 
 ---
 
