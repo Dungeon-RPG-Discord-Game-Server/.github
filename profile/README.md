@@ -12,7 +12,7 @@ built for Discord using **.NET 8**, **Azure**, and modern backend practices.
 
 2. **Start the Game**  
    Type the `/start` slash command to receive a **DM** from the bot and begin your adventure.  
-   🔹 *You can use slash commands in any server where the bot exists or directly in App Messages.*
+   - *You can use slash commands in any server where the bot exists or directly in App Messages.*
 
 3. **Play in Direct Messages**  
    All gameplay takes place in DMs. Use commands like `!help` to view available actions.
